@@ -16,7 +16,7 @@ public class Department {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
-    @Column(name = "DEPTNAME")
+    @Column(name = "DEPT-NAME")
     public String deptName;
 
     @OneToMany(mappedBy = "department", cascade = CascadeType.ALL)

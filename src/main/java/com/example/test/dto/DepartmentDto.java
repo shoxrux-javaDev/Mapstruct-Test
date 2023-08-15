@@ -5,11 +5,11 @@ import lombok.Data;
 @Data
 public class DepartmentDto {
 
-    public String firstname;
+    private String firstname;
 
-    public String lastname;
+    private String lastname;
 
-    public String email;
+    private String email;
 
-    public String phoneNumber;
+    private String phoneNumber;
 }
