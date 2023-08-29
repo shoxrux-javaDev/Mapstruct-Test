@@ -13,8 +13,8 @@ import java.util.Objects;
 @ToString
 @Getter
 @Setter
-@Table(name = "employee")
-@Entity
+@Table(name = "EMPLOYEE")
+@Entity(name = "EMPLOYEE")
 public class Employee {
 
 

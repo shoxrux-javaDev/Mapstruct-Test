@@ -8,8 +8,8 @@ import java.util.List;
 
 @Setter
 @Getter
-@Entity
-@Table(name = "Department")
+@Entity(name = "DEPARTMENT")
+@Table(name = "DEPARTMENT")
 public class Department {
 
     @Id
